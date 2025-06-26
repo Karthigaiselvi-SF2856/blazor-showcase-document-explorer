@@ -25,4 +25,4 @@ jobs:
       with:
         dotnet-version: 9.0.x
     - name: Build showcase
-      run: dotnet build DocumentExplorer.csproj
+      run: dotnet build ./server/DocumentExplorer.csproj
